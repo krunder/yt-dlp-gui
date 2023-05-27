@@ -1,0 +1,50 @@
+.typography {
+  &--paragraph {
+    margin-bottom: 1.2rem;
+  }
+
+  &--headingOne,
+  &--headingTwo,
+  &--headingThree,
+  &--headingFour,
+  &--headingFive,
+  &--headingSix {
+    clear: both;
+    color: #000;
+  }
+
+  &--headingOne {
+    font-size: 38px;
+  }
+
+  &--headingTwo {
+    font-size: 32px;
+  }
+
+  &--headingThree {
+    font-size: 24px;
+  }
+
+  &--headingFour,
+  &--headingFive,
+  &--headingSix {
+    font-size: 20px;
+  }
+
+  &--headingOne {
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+
+  &--headingTwo,
+  &--headingThree,
+  &--headingFour,
+  &--headingFive {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem / 2;
+  }
+
+  &__bold {
+    font-weight: 800;
+  }
+}
